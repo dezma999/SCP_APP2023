@@ -12,22 +12,22 @@ function Nav({Data}) {
         <div className="collapse navbar-collapse" id="navbar">
         <div className="navbar-nav">
         <Link to="/">
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
+        <a className="nav-link active" aria-current="page" href="Home">Home</a>
         </Link>
         <Link to="/SCP002">
-        <a className="nav-link" href="#">SCP002</a> 
+        <a className="nav-link" href="SCP002">SCP002</a> 
         </Link>
         <Link to="/SCP003">
-        <a className="nav-link" href="#">SCP003</a>
+        <a className="nav-link" href="SCP003">SCP003</a>
         </Link>
         <Link to="/SCP004">
-        <a className="nav-link" href="#">SCP004</a>
+        <a className="nav-link" href="SCP004">SCP004</a>
         </Link>
         <Link to="/SCP005">
-        <a className="nav-link" href="#">SCP005</a>
+        <a className="nav-link" href="SCP005">SCP005</a>
         </Link>
         <Link to="/SCP006">
-        <a className="nav-link" href="#">SCP006</a>
+        <a className="nav-link" href="SCP006">SCP006</a>
         </Link>
         </div>
         </div>
