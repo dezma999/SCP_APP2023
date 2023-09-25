@@ -16,13 +16,23 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-      "extends": ["react-app","react-app/jest"],
-      "rules": {
-      "jsx-a11y/anchor-is-valid": ["error", {
-        "components": ["Link"],
-        "specialLink": ["to"] 
-      }]
-    }  
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "jsx-a11y/anchor-is-valid": [
+        "error",
+        {
+          "components": [
+            "Link"
+          ],
+          "specialLink": [
+            "to"
+          ]
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [
@@ -35,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

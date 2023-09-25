@@ -5,6 +5,7 @@ function SCP002(){
 
 return (
       <div className="card">
+        <h1>Object Class: Euclid</h1>
         <div className="card-body">
         <h3 className="card-title">Item:SCP-002</h3>
         <h4 className="card-text">Special Containment Procedures:</h4>

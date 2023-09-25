@@ -10,19 +10,19 @@ function Nav({Data}) {
         <div className="navbar-nav">
             
         <Link to="/SCP002">
-        <a className="nav-link" href="#">SCP-002</a> 
+        <a className="nav-link" href="true">SCP-002</a> 
         </Link>
         <Link to="/SCP003">
-        <a className="nav-link" href="#">SCP-003</a>
+        <a className="nav-link" href="true">SCP-003</a>
         </Link>
         <Link to="/SCP004">
-        <a className="nav-link" href="#">SCP-004</a>
+        <a className="nav-link" href="true">SCP-004</a>
         </Link>
         <Link to="/SCP005">
-        <a className="nav-link" href="#">SCP-005</a>
+        <a className="nav-link" href="true">SCP-005</a>
         </Link>
         <Link to="/SCP006">
-        <a className="nav-link" href="#">SCP-006</a>
+        <a className="nav-link" href="true">SCP-006</a>
         </Link>
         </div>
         </div>
