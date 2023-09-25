@@ -1,3 +1,4 @@
+/*styles for the Nav component */
 .component{
     padding:1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
@@ -27,7 +28,7 @@ button {
 }
 button:hover {
     background-color: lightgray;
-
+    
 }
 .nav-link {
     margin-right: 10px; /* Adjust as needed */
@@ -80,5 +81,48 @@ p {
     color: #555;
     line-height: 1.4;
 }
-  
-  
+/* Styles for screens with a maximum width of 768px (typically for mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    .header {
+        text-align: center; /* Center-align header on small screens */
+    }
+    /* Additional responsive styles for small screens */
+}
+
+/* Styles for screens with a minimum width of 769px (typically for larger screens) */
+@media (min-width: 769px) {
+    .header {
+        text-align: left; /* Left-align header on larger screens */
+    }
+    /* Additional responsive styles for larger screens */
+}
+
+@media (max-width: 768px) {
+    /* Adjust the font size for better readability on small screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Center-align the navigation menu items */
+    .navbar {
+        text-align: center;
+    }
+
+    /* Increase spacing between elements for touch-friendly interactions */
+    .button {
+        margin: 10px;
+    }
+
+    /* Hide or reformat elements that may not fit well on small screens */
+    .sidebar {
+        display: none; /* Hide the sidebar on small screens */
+    }
+
+    /* Modify the layout or stacking of elements to fit the screen width */
+    .content {
+        width: 100%; /* Make sure content takes up full width */
+    }
+}

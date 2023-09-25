@@ -1,12 +1,12 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Nav from './Nav';
 import Data from './Data.json';
-import SCP002 from './SCP002';
-import SCP003 from './SCP003';
-import SCP004 from './SCP004';
-import SCP005 from './SCP005';
-import SCP006 from './SCP006';
-import './Style.css';
+import SCP002 from './SCP-002';
+import SCP003 from './SCP-003';
+import SCP004 from './SCP-004';
+import SCP005 from './SCP-005';
+import SCP006 from './SCP-006';
+import './nav.css';
 
 function App (){
     return(
@@ -14,7 +14,6 @@ function App (){
         <Router>
           <Nav Data={Data} />
           <Routes>
-            <Route path="/" element={<Home/>}/>
             <Route path="/SCP002" element={<SCP002 />} />
             <Route path="/SCP003" element={<SCP003 />} />
             <Route path="/SCP004" element={<SCP004 />} />
@@ -24,26 +23,8 @@ function App (){
         </Router>     
       </>
   );
-}
 
-export function Home()
-{
-  return(
-  <h1>SCP Home Page</h1>
-  
-  );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
 
